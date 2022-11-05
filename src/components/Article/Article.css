@@ -1,0 +1,56 @@
+.articles {
+  margin-top: 2%;
+  width: 90%;
+  height: 90%;
+  overflow-y: scroll;
+}
+
+.title {
+  margin-top: 5%;
+  padding-bottom: 0;
+  font-size: 5em;
+}
+
+.articles:hover {
+  overflow-y: scroll;
+}
+
+.articles::-webkit-scrollbar {
+  width: 10px;
+}
+.articles::-webkit-scrollbar-track {
+  /* background-color: #ccc; */
+}
+.articles::-webkit-scrollbar-thumb {
+  background-color: lightpink;
+}
+
+.posts {
+  float: left;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 3%;
+  width: calc(90% / 3);
+}
+
+.postUrl {
+  transition: 0.4s;
+}
+
+.postImg {
+  width: 100%;
+  height: 90%;
+}
+
+.postUrl:hover {
+  box-shadow: 0px 0px 25px 0px lightpink;
+}
+
+.postUrl {
+  /* border: 1px solid white; */
+}
+.postDt {
+  /* border: 1px solid red; */
+  text-align: center;
+  margin-bottom: 3%;
+}

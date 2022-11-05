@@ -1,9 +1,9 @@
 import React from "react";
 import "./Home.css";
-import TopMain from "./components/Home/TopMain";
-import TopCovers from "./components/Home/TopCovers";
-import Navbar from "./components/common/Navbar";
-import Links from "./components/common/Links";
+import TopMain from "./TopMain";
+import TopCovers from "./TopCovers";
+import Navbar from "../common/Navbar";
+import Links from "../common/Links";
 
 const Home: React.FC = () => {
   return (
