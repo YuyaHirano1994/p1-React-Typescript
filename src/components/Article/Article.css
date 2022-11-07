@@ -18,9 +18,7 @@
 .articles::-webkit-scrollbar {
   width: 10px;
 }
-.articles::-webkit-scrollbar-track {
-  /* background-color: #ccc; */
-}
+
 .articles::-webkit-scrollbar-thumb {
   background-color: lightpink;
 }
@@ -46,9 +44,6 @@
   box-shadow: 0px 0px 25px 0px lightpink;
 }
 
-.postUrl {
-  /* border: 1px solid white; */
-}
 .postDt {
   /* border: 1px solid red; */
   text-align: center;

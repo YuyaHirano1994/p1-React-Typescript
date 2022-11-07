@@ -1,0 +1,28 @@
+.works {
+  /* border: 1px solid red; */
+  margin-top: 5%;
+  margin-left: 2.5%;
+  width: 90%;
+  height: 50px;
+}
+
+.work {
+  margin-bottom: 3%;
+}
+/*  */
+
+.work p {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 2rem;
+  margin-left: 2%;
+  width: 60%;
+  height: 100%;
+}
+
+.workimg {
+  /* float: left; */
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+}

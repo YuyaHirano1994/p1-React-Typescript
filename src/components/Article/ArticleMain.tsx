@@ -5,15 +5,15 @@ const ArticleMain: React.FC = () => {
   const [posts, setposts] = useState<postsModel[]>([]);
 
   const url = "https://dev.to/api/articles?username=yuya0114";
-  // const url = "https://dev.to/api/articles?username=ben";
 
   useEffect(() => {
     fetch(url, { method: "GET" })
       .then((response) => response.json())
-      .then((posts) => setposts(posts));
+      .then((posts) => setposts(posts))
+      .catch((error) => {
+        console.log(error);
+      });
   }, []);
-
-  console.log(posts);
 
   const setDate = (date: string): string => {
     const YY = date.substring(0, 4);
