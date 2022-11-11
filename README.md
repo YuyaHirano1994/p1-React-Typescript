@@ -7,7 +7,7 @@ create Portfolio for just a sample
 
 React TypeScript
 
-# What did you learn?
+# What did I learn?
 
 using React and TypeScript
 
