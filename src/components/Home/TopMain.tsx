@@ -8,9 +8,9 @@ const TopMain: React.FC = () => {
           <article>Hello, I'm Yuya Hirano</article>
         </div>
         <div className="title2">
-          <p>Front-end Web developer from japan</p>
+          <p>Front-End Web developer from japan</p>
           <p>
-            I Love <span>Typescript</span> & <span>React</span>
+            I develop web applications with <span>Typescript</span> & <span>React</span>
           </p>
         </div>
       </div>
