@@ -1,18 +1,18 @@
 import React from "react";
 import "../Home/Home.css";
 import "./About.css";
-import Navbar from "../common/Navbar";
-import Links from "../common/Links";
+import Header from "../common/Header";
+import Footer from "../common/Footer";
 import AboutMain from "./AboutMain";
 import AboutCovers from "./AboutCovers";
 
 const App: React.FC = () => {
   return (
     <main className="Wrapper">
-      <Navbar />
+      <Header />
       <AboutCovers />
       <AboutMain />
-      <Links />
+      <Footer />
     </main>
   );
 };

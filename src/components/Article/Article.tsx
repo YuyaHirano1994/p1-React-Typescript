@@ -2,17 +2,17 @@ import React from "react";
 import "./Article.css";
 import ArticleMain from "./ArticleMain";
 // import ArticleCovers from "./ArticleCovers";
-import Navbar from "../common/Navbar";
-import Links from "../common/Links";
+import Header from "../common/Header";
+import Footer from "../common/Footer";
 
-const Home: React.FC = () => {
+const Article: React.FC = () => {
   return (
-    <main className="Wrapper">
-      <Navbar />
+    <main className="container">
+      <Header />
       <ArticleMain />
-      <Links />
+      <Footer />
     </main>
   );
 };
 
-export default Home;
+export default Article;

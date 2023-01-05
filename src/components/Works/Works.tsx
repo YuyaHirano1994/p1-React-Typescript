@@ -1,15 +1,15 @@
 import React from "react";
 import "./Works.css";
 import WorksMain from "./WorksMain";
-import Navbar from "../common/Navbar";
-import Links from "../common/Links";
+import Header from "../common/Header";
+import Footer from "../common/Footer";
 
 const Home: React.FC = () => {
   return (
     <main className="Wrapper">
-      <Navbar />
+      <Header />
       <WorksMain />
-      <Links />
+      <Footer />
     </main>
   );
 };

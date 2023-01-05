@@ -1,0 +1,93 @@
+/* navbar css */
+.nav {
+  display: flex;
+  width: 100%;
+}
+
+.logo {
+  width: 30%;
+  display: flex;
+  padding-left: 200px;
+  color: pink;
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Playfair Display", serif;
+}
+
+.menu-list {
+  display: flex;
+  width: 76%;
+  justify-content: right;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.hamburger {
+  display: none;
+}
+
+/* Footer CSS */
+footer {
+  padding-top: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.link-list li {
+  padding: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+/* Tablet CSS */
+@media (max-width: 1024px) {
+  .logo {
+    width: 20%;
+    padding-left: 40px;
+    color: pink;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .menu-list {
+    width: 76%;
+    font-size: 1rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
+
+/* Smartphone CSS */
+@media (max-width: 599px) {
+  .nav {
+    display: flex;
+  }
+
+  .logo {
+    text-align: left;
+    border: 1px solid red;
+    padding-left: 10px;
+    padding-top: 20px;
+    color: pink;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .menu-list {
+    /* display: none; */
+    width: 100%;
+    font-size: 0.7rem;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  .menu-list li {
+    padding-left: 10px;
+  }
+}

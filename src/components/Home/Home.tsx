@@ -1,17 +1,16 @@
 import React from "react";
+import "../common/style.css";
 import "./Home.css";
-import TopMain from "./TopMain";
-import TopCovers from "./TopCovers";
-import Navbar from "../common/Navbar";
-import Links from "../common/Links";
+import HomeMain from "./HomeMain";
+import Header from "../common/Header";
+import Footer from "../common/Footer";
 
 const Home: React.FC = () => {
   return (
-    <main className="Wrapper">
-      <Navbar />
-      <TopMain />
-      <TopCovers />
-      <Links />
+    <main className="container">
+      <Header />
+      <HomeMain />
+      <Footer />
     </main>
   );
 };
