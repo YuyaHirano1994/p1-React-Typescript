@@ -4,6 +4,7 @@
   .bm-burger-button {
     display: none;
   }
+
   .nav {
     display: flex;
     width: 100%;
@@ -48,12 +49,14 @@
   .bm-burger-button {
     display: none;
   }
+
   .logo {
     width: 20%;
     padding-left: 40px;
     color: pink;
     font-size: 2rem;
     font-weight: 400;
+    font-family: "Playfair Display", serif;
   }
 
   .menu-list {
@@ -80,6 +83,7 @@
     color: pink;
     font-size: 1rem;
     text-align: center;
+    font-family: "Playfair Display", serif;
   }
 
   .menu-list {
@@ -120,13 +124,12 @@
 
   /* クロスボタンの位置とサイズ */
   .bm-cross-button {
-    height: 24px;
-    width: 24px;
+    height: 30px !important;
+    width: 30px !important;
   }
 
-  /* クロスボタンのカラー・形状 */
   .bm-cross {
-    background: #ffffff;
+    background: white;
   }
 
   /*
@@ -134,30 +137,29 @@
 */
   .bm-menu-wrap {
     position: fixed;
-    height: 100%;
+    height: 70% !important;
+    overflow: hidden;
   }
 
   /* サイドバーのスタイル */
   .bm-menu {
-    background: #373a47;
+    /* background: #373a47; */
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
-  }
-
-  /* bubbleやelasticで必要なモーフの形状 */
-  .bm-morph-shape {
-    fill: #373a47;
   }
 
   /* メニューリストのラッパースタイル*/
   .bm-item-list {
     color: #b8b7ad;
     padding: 0.8em;
+    background-color: #373a47;
   }
 
   /* 個々のリストのスタイル */
   .bm-item {
     display: inline-block;
+    text-decoration: none;
+    outline: none;
     margin-top: 20px;
     text-align: center;
   }
