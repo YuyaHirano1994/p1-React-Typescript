@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { slide as Menu } from "react-burger-menu";
+import Hamburger from "./Menu";
 
 const Header = () => {
   return (
@@ -25,6 +25,7 @@ const Header = () => {
             <a href="#">Contact</a>
           </li>
         </ul>
+        <Hamburger />
       </nav>
       <hr />
     </>
