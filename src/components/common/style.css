@@ -101,8 +101,6 @@
 
   /* Hamburger Menu CSS */
   /* Position and sizing of burger button */
-
-  /* バーガーボタンの位置とサイズ */
   .bm-burger-button {
     display: block;
     position: fixed;
@@ -112,50 +110,50 @@
     top: 25px;
   }
 
-  /* バーガボタンのバーのスタイル */
+  /* Color/shape of burger icon bars */
   .bm-burger-bars {
     background: #373a47;
   }
 
-  /* バーガーボタンのホバー */
+  /* Color/shape of burger icon bars on hover*/
   .bm-burger-bars-hover {
     background: rgb(141, 141, 141);
   }
 
-  /* クロスボタンの位置とサイズ */
+  /* Position and sizing of clickable cross button */
   .bm-cross-button {
-    height: 30px !important;
-    width: 30px !important;
+    overflow: hidden;
   }
 
+  /* Color/shape of close button cross */
   .bm-cross {
-    background: white;
+    position: relative !important;
+    display: inline-block;
+    background: rgb(214, 150, 150);
   }
 
   /*
-サイドバーのラッパースタイル - アニメーションが壊れる可能性があるため触るときは注意
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
 */
   .bm-menu-wrap {
     position: fixed;
     height: 70% !important;
-    overflow: hidden;
   }
 
-  /* サイドバーのスタイル */
+  /* General sidebar styles */
   .bm-menu {
-    /* background: #373a47; */
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
   }
-
-  /* メニューリストのラッパースタイル*/
+  /* Wrapper for item list */
   .bm-item-list {
     color: #b8b7ad;
     padding: 0.8em;
     background-color: #373a47;
   }
 
-  /* 個々のリストのスタイル */
+  /* Individual item */
   .bm-item {
     display: inline-block;
     text-decoration: none;
@@ -164,7 +162,7 @@
     text-align: center;
   }
 
-  /* オーバーレイ(overlay)のスタイリング */
+  /* Styling of overlay */
   .bm-overlay {
     background: rgba(0, 0, 0, 0.3);
   }
