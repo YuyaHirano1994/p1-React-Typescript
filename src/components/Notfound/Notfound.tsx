@@ -1,6 +1,6 @@
 import React from "react";
-import "../Home/Home.css";
-import "./Notfound.css";
+import "../../css//style.css";
+import "../../css/Notfound.css";
 import Header from "../common/Header";
 import Footer from "../common/Footer";
 

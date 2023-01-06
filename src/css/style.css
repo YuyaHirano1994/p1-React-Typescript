@@ -44,6 +44,7 @@
     padding-left: 10px;
   }
 }
+
 /* Tablet CSS */
 @media (max-width: 1024px) {
   .bm-burger-button {
@@ -69,7 +70,7 @@
   }
 }
 
-/* Smartphone CSS */
+/* SP CSS */
 @media (max-width: 599px) {
   .nav {
     display: flex;

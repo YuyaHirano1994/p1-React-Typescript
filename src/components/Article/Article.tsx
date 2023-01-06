@@ -1,5 +1,6 @@
 import React from "react";
-import "./Article.css";
+import "../../css/style.css";
+import "../../css/Article.css";
 import ArticleMain from "./ArticleMain";
 // import ArticleCovers from "./ArticleCovers";
 import Header from "../common/Header";

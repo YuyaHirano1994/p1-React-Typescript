@@ -9,7 +9,7 @@
   margin: 0;
   color: white;
   font-family: "Inter", sans-serif;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 body {
@@ -34,7 +34,6 @@ a {
 .content {
   display: flex;
   justify-content: center;
-  position: relative;
 }
 
 .titles {
@@ -52,8 +51,8 @@ a {
   width: 22%;
   padding-top: 20px;
   padding-left: 30%;
-  -webkit-box-shadow: 7px 10px 0px 0px #000000;
-  box-shadow: 7px 10px 0px 0px #000000;
+  box-shadow: 14px 14px 29px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 14px 0px 29px 0px rgba(0, 0, 0, 0.75);
 }
 
 /* Tablet CSS */
@@ -68,7 +67,7 @@ a {
   }
 }
 
-/* Smartphone CSS */
+/* SP CSS */
 @media (max-width: 599px) {
   * {
     overflow: scroll;

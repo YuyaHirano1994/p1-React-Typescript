@@ -6,3 +6,11 @@ export interface postsModel {
   social_image: string;
   canonical_url: string;
 }
+
+export interface timelineModel {
+  title: string;
+  cardTitle: string;
+  url: string;
+  cardSubtitle: string;
+  cardDetailedText: string;
+}

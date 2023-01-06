@@ -1,5 +1,6 @@
 import React from "react";
-import "./Works.css";
+import "../../css/style.css";
+import "../../css/Works.css";
 import WorksMain from "./WorksMain";
 import Header from "../common/Header";
 import Footer from "../common/Footer";

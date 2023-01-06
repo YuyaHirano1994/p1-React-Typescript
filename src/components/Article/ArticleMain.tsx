@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { postsModel } from "../../models/posts.model";
+import { postsModel } from "../../models/model";
 
 const ArticleMain: React.FC = () => {
   const [posts, setposts] = useState<postsModel[]>([]);
@@ -35,9 +35,7 @@ const ArticleMain: React.FC = () => {
           {posts.map((post) => (
             <li className="posts" key={post.id}>
               <a className="postUrl" href={post.canonical_url} target="_blank">
-                <div className="postDt">
-                  {setDate(post.published_timestamp)}
-                </div>
+                <div className="postDt">{setDate(post.published_timestamp)}</div>
                 <img className="postImg" src={post.social_image} />
               </a>
             </li>

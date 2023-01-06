@@ -1,20 +1,19 @@
 import React from "react";
-import "../Home/Home.css";
-import "./About.css";
+import "../../css/style.css";
 import Header from "../common/Header";
 import Footer from "../common/Footer";
 import AboutMain from "./AboutMain";
-import AboutCovers from "./AboutCovers";
+import { Chrono } from "react-chrono";
+import { timelineModel } from "../../models/model";
 
-const App: React.FC = () => {
+const About: React.FC = () => {
   return (
-    <main className="Wrapper">
+    <main className="about-container">
       <Header />
-      <AboutCovers />
       <AboutMain />
       <Footer />
     </main>
   );
 };
 
-export default App;
+export default About;
