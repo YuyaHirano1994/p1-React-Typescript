@@ -1,28 +1,86 @@
-.works {
-  /* border: 1px solid red; */
-  margin-top: 5%;
-  margin-left: 2.5%;
-  width: 90%;
-  height: 50px;
+/* PC CSS */
+.work-content {
+  overflow: scroll;
+}
+
+.work-title h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Playfair Display", serif;
 }
 
 .work {
-  margin-bottom: 3%;
-}
-/*  */
-
-.work p {
-  display: inline-block;
-  vertical-align: top;
-  line-height: 2rem;
-  margin-left: 2%;
-  width: 60%;
-  height: 100%;
+  display: flex;
+  padding: 50px 100px;
 }
 
-.workimg {
-  /* float: left; */
-  text-align: center;
-  display: inline-block;
-  width: 30%;
+.detail {
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  padding: 10px;
+  box-shadow: 14px 14px 29px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 14px 0px 29px 0px rgba(0, 0, 0, 0.75);
+}
+
+.work-image {
+  width: 25%;
+}
+
+.work-text {
+  margin-bottom: 2rem;
+}
+
+.stacks {
+  margin-bottom: 5em;
+}
+
+.work-links a {
+  border: 1px solid grey;
+  margin: 10px;
+  box-shadow: 14px 14px 29px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 14px 0px 29px 0px rgba(0, 0, 0, 0.75);
+  transition: 0.3s;
+  padding: 12px 12px;
+  border-radius: 12px;
+  background-color: #9e9e9e;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.work-links a:hover {
+  transition: 0.3s;
+  background-color: pink;
+  color: black;
+}
+
+@media (max-width: 1024px) {
+  .work-image {
+    width: 50%;
+  }
+  .stacks {
+    margin-bottom: 2em;
+  }
+  .work-links a {
+    font-size: 0.8rem;
+  }
+}
+
+/* SP CSS */
+@media (max-width: 599px) {
+  .work-title h1 {
+    font-size: 1.5rem;
+    justify-content: center;
+    font-family: "Playfair Display", serif;
+  }
+
+  .work {
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .work-image {
+    width: 50%;
+  }
 }

@@ -19,8 +19,7 @@
 }
 
 .about-text {
-  padding-top: 5%;
-  padding-left: 1rem;
+  padding: 1rem;
   margin-top: 1rem;
   margin-left: 2rem;
   box-shadow: 14px 14px 29px 0px rgba(0, 0, 0, 0.75);
@@ -45,8 +44,14 @@
 }
 
 .categories {
+  padding: 1rem;
   box-shadow: 14px 14px 29px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 14px 14px 29px 0px rgba(0, 0, 0, 0.75);
+}
+
+.category {
+  font-family: "Playfair Display", serif;
+  border-top: 1px solid black;
 }
 
 .mySkills {
