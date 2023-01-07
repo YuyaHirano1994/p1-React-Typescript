@@ -33,7 +33,11 @@
 }
 
 .stacks {
-  margin-bottom: 5em;
+  margin-top: 2rem;
+}
+
+.work-links {
+  margin-left: 2rem;
 }
 
 .work-links a {
