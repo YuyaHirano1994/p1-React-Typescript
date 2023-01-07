@@ -78,9 +78,31 @@
     display: block;
     justify-content: center;
     text-align: center;
+    padding: 0;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  .work-text {
+    text-align: left;
+    padding-left: 1rem;
   }
 
   .work-image {
     width: 50%;
+  }
+
+  .detail {
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    padding: 0px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  .work-links a {
+    background-color: unset;
+    text-decoration: none;
+    color: #fff;
   }
 }
