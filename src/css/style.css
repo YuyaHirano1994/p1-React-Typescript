@@ -106,11 +106,13 @@
   }
 
   .important-list {
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: flex;
-    text-align: center;
-    justify-content: center;
     margin-top: 0rem;
+  }
+
+  .important-list li {
+    overflow-x: hidden;
   }
 
   .menu-list {
