@@ -7,9 +7,11 @@ const Header = () => {
   return (
     <>
       <nav className="nav">
-        <div className="logo">
-          Yuya <br></br>Hirano
-        </div>
+        <Link to={`/`}>
+          <div className="logo">
+            Yuya <br></br>Hirano
+          </div>
+        </Link>
         <ul className="menu-list">
           <li id="github">
             <a href="https://github.com/YuyaHirano1994" target="_blank" rel="noreferrer">
@@ -32,9 +34,6 @@ const Header = () => {
           </li>
           <li className="menu-item" id="article">
             <Link to={`/article/`}>Articles</Link>
-          </li>
-          <li className="menu-item" id="contact">
-            <a href="http://www.google.com">Contact</a>
           </li>
         </ul>
         <Hamburger />

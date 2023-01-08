@@ -16,7 +16,6 @@ const Hamburger: React.FC = (props) => {
       <Link to={`/about/`}>About</Link>
       <Link to={`/works/`}>Works</Link>
       <Link to={`/article/`}>Articles</Link>
-      <a href="http:www.google.com">Contact</a>
     </Menu>
   );
 };

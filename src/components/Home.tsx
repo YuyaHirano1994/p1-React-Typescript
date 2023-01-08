@@ -25,6 +25,13 @@ const Home: React.FC = () => {
         </div>
         <img className="top-image" src={image} alt="read error" />
       </div>
+      <div className="contact-container">
+        <h1>Contact</h1>
+        <div className="info">
+          <h3>+1 (236) 858 8632</h3>
+          <h3>v322sk@gmail.com</h3>
+        </div>
+      </div>
       <Footer />
     </main>
   );
