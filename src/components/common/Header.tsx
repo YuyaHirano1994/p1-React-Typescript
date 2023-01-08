@@ -36,7 +36,7 @@ const Header = () => {
             <Link to={`/article/`}>Articles</Link>
           </li>
           <li className="menu-item" id="contact">
-            <a href="#">Contact</a>
+            <a href="http://www.google.com">Contact</a>
           </li>
         </ul>
         <Hamburger />
