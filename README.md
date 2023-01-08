@@ -1,7 +1,10 @@
+# URL
+
+https://portfolio-p1.vercel.app/
+
 # About The Project
 
-learning React and TypeScript
-create Portfolio for just a sample
+create Portfolio with React and TypeScript
 
 # Built with
 
