@@ -20,15 +20,6 @@
     font-family: "Playfair Display", serif;
   }
 
-  .important-list {
-    font-size: 1.5rem;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin-top: 2rem;
-    margin-left: 1rem;
-  }
-
   .menu-list {
     display: flex;
     width: 76%;
@@ -63,19 +54,10 @@
   .logo {
     width: 20%;
     padding-left: 40px;
-    /* padding-top: 20px; */
     color: pink;
     font-size: 2rem;
     font-weight: 400;
     font-family: "Playfair Display", serif;
-  }
-
-  .important-list {
-    font-size: 1.5rem;
-    display: block;
-    /* text-align: center; */
-    /* justify-content: center; */
-    margin-top: 0rem;
   }
 
   .menu-list {
@@ -103,16 +85,6 @@
     font-size: 1rem;
     text-align: center;
     font-family: "Playfair Display", serif;
-  }
-
-  .important-list {
-    font-size: 1rem;
-    display: flex;
-    margin-top: 0rem;
-  }
-
-  .important-list li {
-    overflow-x: hidden;
   }
 
   .menu-list {

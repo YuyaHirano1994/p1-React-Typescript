@@ -9,20 +9,18 @@ const Header = () => {
       <nav className="nav">
         <div className="logo">
           Yuya <br></br>Hirano
-          <ul className="important-list">
-            <li id="github">
-              <a href="https://github.com/YuyaHirano1994" target="_blank" rel="noreferrer">
-                <Icon icon="akar-icons:github-fill" />
-              </a>
-            </li>
-            <li id="linkedin">
-              <a href="https://www.linkedin.com/in/yuya-hirano-9605a5247/" target="_blank" rel="noreferrer">
-                <Icon icon="akar-icons:linkedin-box-fill" />
-              </a>
-            </li>
-          </ul>
         </div>
         <ul className="menu-list">
+          <li id="github">
+            <a href="https://github.com/YuyaHirano1994" target="_blank" rel="noreferrer">
+              <Icon icon="akar-icons:github-fill" />
+            </a>
+          </li>
+          <li id="linkedin">
+            <a href="https://www.linkedin.com/in/yuya-hirano-9605a5247/" target="_blank" rel="noreferrer">
+              <Icon icon="akar-icons:linkedin-box-fill" />
+            </a>
+          </li>
           <li className="menu-item" id="Home">
             <Link to={`/`}>Home</Link>
           </li>
