@@ -1,11 +1,22 @@
 import React from "react";
-import "../../css/About.css";
-import image from "../../assets/about_main.jpg";
-import image2 from "../../assets/about_sub.jpg";
-import { timelineModel } from "../../models/model";
-import { Chrono } from "react-chrono";
 
-const AboutMain: React.FC = () => {
+/* IMPORT CSS */
+import "../css/style.css";
+import "../css/About.css";
+
+/* components */
+import Header from "./common/Header";
+import Footer from "./common/Footer";
+
+/* package */
+import { Chrono } from "react-chrono";
+import { timelineModel } from "../models/model";
+
+/* images */
+import image from "../assets/about_main.jpg";
+import image2 from "../assets/about_sub.jpg";
+
+const About: React.FC = () => {
   const items: timelineModel[] = [
     {
       title: "May 1940",
@@ -47,9 +58,9 @@ const AboutMain: React.FC = () => {
       cardDetailedText: `On 10 May 1940, Hitler began his long-awaited offensive in the west by invading neutral Holland and Belgium and attacking northern France. Holland capitulated after only five days of fighting, and the Belgians surrendered on 28 May. With the success of the German ‘Blitzkrieg’, the British Expeditionary Force and French troops were in danger of being cut off and destroyed.`,
     },
   ];
-
   return (
-    <>
+    <main className="about-container">
+      <Header />
       <div className="about-content">
         <div className="aboutMe">
           <img className="about-image" src={image} alt="read error"></img>
@@ -106,8 +117,9 @@ const AboutMain: React.FC = () => {
           />
         </div>
       </div>
-    </>
+      <Footer />
+    </main>
   );
 };
 
-export default AboutMain;
+export default About;

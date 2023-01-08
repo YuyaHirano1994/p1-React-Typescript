@@ -1,8 +1,8 @@
 import React from "react";
 import "../../css//style.css";
 import "../../css/Notfound.css";
-import Header from "../common/Header";
-import Footer from "../common/Footer";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const NotFound: React.FC = () => {
   return (

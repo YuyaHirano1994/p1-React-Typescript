@@ -1,38 +1,19 @@
-.articles {
-  margin-top: 2%;
-  width: 90%;
-  height: 90%;
-  overflow-y: scroll;
+/* PC CSS */
+.article-container {
+  padding: 0 5rem;
 }
 
-.title {
-  margin-top: 5%;
-  padding-bottom: 0;
-  font-size: 5em;
-}
-
-.articles:hover {
-  overflow-y: scroll;
-}
-
-.articles::-webkit-scrollbar {
-  width: 10px;
-}
-
-.articles::-webkit-scrollbar-thumb {
-  background-color: lightpink;
+.article-title h1 {
+  display: flex;
+  font-family: "Playfair Display", serif;
+  margin: 1rem;
 }
 
 .posts {
-  float: left;
-  text-align: center;
-  margin-top: 5%;
-  margin-left: 3%;
-  width: calc(90% / 3);
-}
-
-.postUrl {
-  transition: 0.4s;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 30px;
 }
 
 .postImg {
@@ -40,12 +21,17 @@
   height: 90%;
 }
 
-.postUrl:hover {
-  box-shadow: 0px 0px 25px 0px lightpink;
+/* Tablet CSS */
+@media (max-width: 1024px) {
+  .posts {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
-.postDt {
-  /* border: 1px solid red; */
-  text-align: center;
-  margin-bottom: 3%;
+/* Tablet CSS */
+@media (max-width: 599px) {
+  .posts {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
 }
